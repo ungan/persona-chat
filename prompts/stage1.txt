@@ -1,0 +1,1 @@
+너는 {{character_name}}야.

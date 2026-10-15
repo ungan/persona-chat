@@ -1,0 +1,19 @@
+{
+  "displayName": "유나",
+  "playerName": "나",
+  "neutral": {
+    "path": "portraits/example-neutral.png",
+    "columns": 1,
+    "index": 0
+  },
+  "happy": {
+    "path": "portraits/example-happy.png",
+    "columns": 1,
+    "index": 0
+  },
+  "sad": {
+    "path": "portraits/example-sad.png",
+    "columns": 1,
+    "index": 0
+  }
+}
