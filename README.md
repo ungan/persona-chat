@@ -8,7 +8,6 @@ Unity + Java 기반의 LLM 캐릭터 채팅 예제
 
 [![Windows 다운로드](https://img.shields.io/badge/Windows-다운로드-2563EB?logo=windows)](https://github.com/ungan/persona-chat/releases/latest/download/PersonaChat-Windows-x64.zip)
 [![최신 버전](https://img.shields.io/github/v/release/ungan/persona-chat)](https://github.com/ungan/persona-chat/releases/latest)
-[![다운로드 횟수](https://img.shields.io/github/downloads/ungan/persona-chat/total?label=Release%20downloads)](docs/DOWNLOADS.md)
 [![MIT License](https://img.shields.io/badge/License-MIT-green)](LICENSE)
 
 [바로 실행하기](#바로-실행하기) · [내 캐릭터로 바꾸기](#내-캐릭터로-바꾸기) · [소스 실행](#소스에서-실행하기) · [문제 해결](#문제-해결)
@@ -158,25 +157,6 @@ Unity는 질문·최근 대화·단계 번호를 보내고 서버가 프롬프�
 실제 `.env`, API 키, 로그, 캐시와 비공개 이미지는 배포하지 마세요. 공개 패키징은 검토된 예시 이미지 3종만 복사합니다.
 
 </details>
-
-## 지원 범위
-
-- 현재 OpenAI Chat Completions API와 Structured Outputs를 지원하는 모델을 사용합니다. 모델은 본인 계정에서 접근 가능해야 합니다.
-- 최근 대화 최대 10쌍을 활용하며, 종료·초기화하면 대화가 사라집니다.
-- 장기 기억, 음성, 스트리밍 출력, 표정 애니메이션은 구현하지 않았습니다. 표정은 이미지 교체입니다.
-- Windows 실행·종료와 공개 이미지 전환을 확인했습니다. 모델과 PC 환경에 따라 결과는 달라질 수 있습니다.
-
-## 다운로드 수
-
-상단 배지는 **모든 Release 첨부 파일의 누적 다운로드 횟수**입니다. 설치자 수나 고유 사용자 수가 아니며, 재다운로드와 검증용 다운로드도 포함될 수 있습니다. 배지는 캐시 때문에 갱신이 늦을 수 있습니다.
-
-Windows ZIP별 횟수는 다음 명령으로 확인할 수 있습니다. 공개 저장소라 API 키는 필요하지 않습니다.
-
-```powershell
-powershell.exe -NoProfile -ExecutionPolicy Bypass -File .\scripts\Get-DownloadStats.ps1
-```
-
-[집계 범위와 조회 방법](docs/DOWNLOADS.md)
 
 ## 라이선스
 
